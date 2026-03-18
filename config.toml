@@ -1,0 +1,10 @@
+[general]
+resolution = [1704, 720]      # 推荐分辨率
+caption_extension = ".txt"
+batch_size = 1
+enable_bucket = true
+
+[[datasets]]
+image_directory = "resources/20260318/target_images"     # 目标图像（编辑后的结果）
+control_directory = "resources/20260318/control_images"  # 控制图像（编辑前的原图）
+cache_directory = "resources/20260318/cache_directory"
